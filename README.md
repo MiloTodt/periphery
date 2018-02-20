@@ -4,7 +4,7 @@ Requirements: Git, Javascript, Node.js (version 6.9.5), npm, nvm
 Any changes pushed to here will automatically be pushed LIVE to the website.
 This is version controlled, so we can ROLLBACK errors easily. Major changes please fork first.
 
-If you're new to git, please read a guide for getting started: https://git-scm.com/book/en/v2/Getting-Started-Git-Basics
+If you're new to git, please read a guide for [getting started](http://rogerdudler.github.io/git-guide/)
 
 main page is in /views/pages/index.ejs
 
