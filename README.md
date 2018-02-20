@@ -25,6 +25,16 @@ Make sure you have [Node.js](http://nodejs.org/)
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
+## Pushing changes
+
+make sure that you are in the base directory for the project (periphery)
+
+`git add .`
+ 
+`git commit -m "What I changed"`
+
+`git push`
+
 
 - [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 - [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
