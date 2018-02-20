@@ -14,11 +14,11 @@ ANY content you want to make public (Images for example) go in /public/ please k
 
 Make sure you have [Node.js](http://nodejs.org/) 
 
-$ git clone https://github.com/MiloTodt/periphery.git
-$ cd periphery
-$ npm install
-$ npm start
-```
+ git clone https://github.com/MiloTodt/periphery.git
+ cd periphery
+ npm install
+ npm start
+
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
