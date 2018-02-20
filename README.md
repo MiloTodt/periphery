@@ -25,6 +25,8 @@ Make sure you have [Node.js](http://nodejs.org/)
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
+Take a look here before pushing in case you broke something!
+
 ## Pushing changes
 
 make sure that you are in the base directory for the project (periphery)
