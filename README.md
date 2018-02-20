@@ -1,5 +1,5 @@
 # Instructions
-Requirments: Git, Javascript, Node.js (version 6.9.5), npm, nvm
+Requirements: Git, Javascript, Node.js (version 6.9.5), npm, nvm
 
 Any changes pushed to here will automatically be pushed LIVE to the website.
 This is version controlled, so we can ROLLBACK errors easily. Major changes please fork first.
