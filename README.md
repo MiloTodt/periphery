@@ -6,6 +6,9 @@ This is version controlled, so we can ROLLBACK errors easily. Major changes plea
 
 If you're new to git, please read a guide for getting started: https://git-scm.com/book/en/v2/Getting-Started-Git-Basics
 
+main page is in /views/pages/index.ejs
+
+ANY content you want to make public (Images for example) go in /public/ please keep it organized IE putting images in /public/images
 
 ## Running Locally
 
