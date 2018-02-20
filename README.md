@@ -1,36 +1,42 @@
-# node-js-getting-started
+# Instructions
+Requirements: Git, Javascript, Node.js (version 6.9.5), npm, nvm
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+Any changes pushed to here will automatically be pushed LIVE to the website.
+This is version controlled, so we can ROLLBACK errors easily. Major changes please fork first.
 
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
+If you're new to git, please read a guide for getting started: https://git-scm.com/book/en/v2/Getting-Started-Git-Basics
+
+main page is in /views/pages/index.ejs
+
+ANY content you want to make public (Images for example) go in /public/ please keep it organized IE putting images in /public/images
 
 ## Running Locally
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
+Make sure you have [Node.js](http://nodejs.org/) 
 
-```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
-```
+ `git clone https://github.com/MiloTodt/periphery.git`
+ 
+ `cd periphery`
+ 
+ `npm install`
+ 
+ `npm start`
+
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-## Deploying to Heroku
+Take a look here before pushing in case you broke something!
 
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-or
+## Pushing changes
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+make sure that you are in the base directory for the project (periphery)
 
-## Documentation
+`git add .`
+ 
+`git commit -m "What I changed"`
 
-For more information about using Node.js on Heroku, see these Dev Center articles:
+`git push`
+
 
 - [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 - [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
