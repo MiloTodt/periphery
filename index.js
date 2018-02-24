@@ -1,3 +1,5 @@
+//This is the file that handles the Node routing. It translates HTTP requests into responses. The web page is in /views/index.ejs
+
 const express = require('express')
 const path = require('path')
 const PORT = process.env.PORT || 5000
