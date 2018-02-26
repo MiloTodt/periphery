@@ -1,8 +1,8 @@
 //This is the file that handles the Node routing. It translates HTTP requests into responses. The web page is in /views/index.ejs
 
-const express = require('express')
-const path = require('path')
-const PORT = process.env.PORT || 5000
+const express = require('express');
+const path = require('path');
+const PORT = process.env.PORT || 5000;
 
 
 express()
@@ -12,4 +12,4 @@ express()
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/index'))
   .get('/splash', (req, res) => res.render('pages/splash'))	
-  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
+  .listen(PORT, () => console.log(`Listening on ${ PORT }`));
