@@ -1,4 +1,5 @@
-//This is the file that handles the Node routing. It translates HTTP requests into responses. The web page is in /views/index.ejs
+//This is the file that handles the Node routing. It translates HTTP requests into responses. The web pages are in /pages/views/
+//Currently /views/pages/splash.ejs is the default.
 
 const express = require('express');
 const path = require('path');
