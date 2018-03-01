@@ -17,7 +17,7 @@ if (typeof jQuery === 'undefined') {
     jQuery = $;
   }
 }
-; /*
+ /*
   * jQuery Easing v1.4.0 - http://gsgd.co.uk/sandbox/jquery/easing/
   * Open source under the BSD License.
   * Copyright © 2008 George McGinley Smith
@@ -160,13 +160,13 @@ if (typeof jQuery === 'undefined') {
       return x < 0.5 ? (1 - bounceOut(1 - 2 * x)) / 2 : (1 + bounceOut(2 * x - 1)) / 2;
     }
   });
-});; // Custom Easing
+}); // Custom Easing
 jQuery.extend(jQuery.easing, {
   easeInOutMaterial: function (x, t, b, c, d) {
     if ((t /= d / 2) < 1) return c / 2 * t * t + b;
     return c / 4 * ((t -= 2) * t * t + 2) + b;
   }
-});; /*! VelocityJS.org (1.2.3). (C) 2014 Julian Shapiro. MIT @license: en.wikipedia.org/wiki/MIT_License */
+}); /*! VelocityJS.org (1.2.3). (C) 2014 Julian Shapiro. MIT @license: en.wikipedia.org/wiki/MIT_License */
 /*! VelocityJS.org jQuery Shim (1.0.1). (C) 2014 The jQuery Foundation. MIT @license: en.wikipedia.org/wiki/MIT_License. */
 /*! Note that this has been modified by Materialize to confirm that Velocity is not already being imported. */
 jQuery.Velocity ? console.log("Velocity is already loaded. You may be needlessly importing Velocity again; note that Materialize includes Velocity.") : (!function (e) {
@@ -312,7 +312,7 @@ jQuery.Velocity ? console.log("Velocity is already loaded. You may be needlessly
       }function g() {
         V = !0, (e != r || a != n) && p();
       }var m = 4,
-          y = .001,
+          y = 0.001,
           h = 1e-7,
           v = 10,
           b = 11,
