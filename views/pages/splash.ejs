@@ -104,11 +104,11 @@
       <div class="section no-pad-bot">
         <div class="container">
           <div class="row center">
-            
+
             <h5 class="header col s12 light" style="color:gold;"></h5>
           </div>
         </div>
-        
+
       </div>
 
       <script type="text/javascript">
@@ -117,7 +117,9 @@
         var embedder = scripts[scripts.length - 1];
         (function () {
           var appName = encodeURIComponent(window.location.hostname);
-          if (appName == "") { appName = "local"; }
+          if (appName == "") {
+            appName = "local";
+          }
           var s = document.createElement("script");
           s.type = "text/javascript";
           s.async = true;
@@ -126,13 +128,10 @@
           embedder.parentNode.appendChild(s);
         })();
       </script>
+      <div class="parallax">
 
-
-      
-        <div class="parallax">
-          
-          <img src="images/background2.jpg" alt="Unsplashed background img 2">
-        </div>
+        <img src="images/background2.jpg" alt="Unsplashed background img 2">
+      </div>
     </div>
 
     <div class="container">
@@ -146,21 +145,23 @@
             <p class="left-align light">
               <centre>
                 <table>
+                  <!-- Content generator functions stored in init.js -->
                   <tr>
                     <td>
-                      <img src='images/icons/windows.png' width=50% />
+                      <input type="image" src="/images/icons/windows.png"  width=50% onclick="guideWindows()">
                     </td>
                     <td>
-                      <img src='images/icons/apple.png' width=50% />
+                      <input type="image" src='images/icons/apple.png' width=50% onclick="guideOSx()"/>
                     </td>
                     <td>
-                      <img src='images/icons/linux.png' width=50% />
+                    <input type="image"src='images/icons/linux.png' width=50% onclick="guideLinux()" />
                     </td>
                   </tr>
               </centre>
               </table>
               </br>
               <a href="http://paleaurapools.com" id="download-button" class="btn-large waves-effect waves-light purple lighten-1">I know what I'm doing.</a>
+              <br/> <div id ="guide"></div>
             </p>
           </div>
         </div>
